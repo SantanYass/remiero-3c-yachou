@@ -1,40 +1,51 @@
+<!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sito di canottaggio</title>
-  </head>
-  <body>
-    <link rel="stylesheet" href="stylesheet.css">
-    <header>
-      <h1>Benvenuti nel nostro sito di canottaggio!</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Chi siamo</a></li>
-          <li><a href="#">Le nostre attività</a></li>
-          <li><a href="#">Contatti</a></li
-          <li><a href="reg.html">Registrazione</a></li
-        </ul>  
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h2>Chi siamo</h2>
-        <p>Siamo una società di canottaggio fondata nel 1980. Offriamo lezioni per principianti e per chi vuole migliorare le proprie prestazioni.</p>
-      </section>
-      <section>
-        <h2>Le nostre attività</h2>
-        <ul>
-          <li>Corsa in barca a due</li>
-          <li>Corsa in barca a quattro</li>
-          <li>Corsa in barca a otto</li>
-        </ul>
-        <p>Organizziamo anche eventi e regate durante tutto l'anno. Consulta il nostro calendario per maggiori informazioni.</p>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2023 Sito di canottaggio</p>
-    </footer>
-  </body>
-</html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Centro Remiero di Canottaggio</title>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="chi-siamo.html">Chi siamo</a></li>
+				<li><a href="attivita.html">Le nostre attività</a></li>
+				<li><a href="contatti.html">Contatti</a></li>
+				<li><a href="registrazione.html">Diventa socio</a></li>
+			</ul>
+		</nav>
+		<h1>Centro Remiero di Canottaggio</h1>
+		<p>Benvenuti nel nostro centro remiero! Scoprite con noi il fascino del canottaggio.</p>
+	</header>
+	<main>
+		<section>
+			<h2>Chi siamo</h2>
+			<p>Siamo un centro remiero fondato nel 1985 con l'obiettivo di promuovere e diffondere il canottaggio in città. Ci troviamo nel cuore della città, a pochi passi dal fiume. Il nostro staff è composto da istruttori professionisti, appassionati e qualificati, pronti a farvi vivere esperienze uniche sull'acqua.</p>
+		</section>
+		<section>
+			<h2>Le nostre attività</h2>
+			<p>Offriamo corsi di canottaggio per principianti e avanzati, per adulti e bambini. Organizziamo anche gare e competizioni per gli appassionati del canottaggio. Ogni anno partecipiamo a numerose regate regionali e nazionali. Venite a scoprire tutte le nostre attività!</p>
+		</section>
+		<section>
+			<h2>Contatti</h2>
+			<p>Per qualsiasi informazione o richiesta, potete contattarci ai seguenti recapiti:</p>
+			<ul>
+				<li>Telefono: 0123456789</li>
+				<li>Email: info@centroremierocanottaggio.it</li>
+				<li>Indirizzo: Via del Canottaggio, 1 - 10100 Torino</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Diventa socio</h2>
+			<p>Se vuoi diventare socio del nostro centro remiero e partecipare alle nostre attività, compila il modulo di registrazione qui sotto:</p>
+			<form action="registrazione.php" method="post">
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome"><br>
+				<label for="cognome">Cognome:</label>
+				<input type="text" id="cognome" name="cognome"><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				
