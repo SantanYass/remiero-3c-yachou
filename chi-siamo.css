@@ -1,0 +1,80 @@
+/* Impostazioni globali */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stile del corpo */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  /* Stile dell'header */
+  header {
+    font-family: Arial, sans-serif;
+    background-color: #10a0e2;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    border-bottom: 3px solid #fff;
+  }
+  
+  /* Stile della sezione */
+  section {
+    padding: 50px;
+    margin: 50px 0;
+    background-color: #fff;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stile del footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
